@@ -43,7 +43,7 @@ The UI immediately creates the right separation. The panels from left to right r
 The business requirement here is to write a program that calculates the factorial of an integer.
 
 
-!["JavaScript code, calculating the first factorial of an integer with recursion."](https://cdn.hashnode.com/res/hashnode/image/upload/v1624542400984/cCeAlmK78.jpeg)
+![JavaScript code, calculating the first factorial of an integer with recursion.](https://cdn.hashnode.com/res/hashnode/image/upload/v1624542400984/cCeAlmK78.jpeg)
 
 Let's pretend for a moment that we like the idea of testing implementation details. In fact, all we do is test implementation details so this one is going to be easy! We should definitely test the number of recursive function calls for a given input.
 
