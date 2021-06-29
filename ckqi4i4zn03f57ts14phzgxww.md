@@ -1,7 +1,5 @@
 ## Why it took me two years to record a single video
 
-Photo by <a href="https://unsplash.com/@noahsilliman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Noah Silliman</a> on <a href="https://unsplash.com/s/photos/alone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
 Every year, around February I'm running out of motivation. This lasts about 2 to 3 weeks.
 I don't know what causes this - maybe my New Year Resolutions are lagging.
 
@@ -152,3 +150,5 @@ I'm new to all this so every bit of information helps.
 What should I do differently, what you enjoyed/found annoying so please leave a comment below or reach out to me on [Twitter](https://twitter.com/akoskm).
 
 Thank you 🙌
+
+Photo by <a href="https://unsplash.com/@noahsilliman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Noah Silliman</a> on <a href="https://unsplash.com/s/photos/alone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
