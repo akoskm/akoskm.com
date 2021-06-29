@@ -2,7 +2,7 @@
 
 Photo by <a href="https://unsplash.com/@noahsilliman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Noah Silliman</a> on <a href="https://unsplash.com/s/photos/alone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
-Every year, around February I'm falling into a mini-depression that lasts about 2 to 3 weeks.
+Every year, around February I'm running out of motivation. This lasts about 2 to 3 weeks.
 I don't know what causes this - maybe my New Year Resolutions are lagging.
 
 At the end of these periods, I always end up with a *life-changing* to-do list.
