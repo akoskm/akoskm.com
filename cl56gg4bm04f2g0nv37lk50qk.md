@@ -1,4 +1,4 @@
-## useReducer TypeScript Types
+## How to add TypeScript types to useReducer
 
 useReducer is a great way to abstract some of your application's complexity in React.
 In this post, I'm going to show you how you can add TypeScript types to reducers and save yourself hours of debugging time! 🥳
