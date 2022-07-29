@@ -101,6 +101,8 @@ One of my teachers only told me this after I presented my final work:
 
 > you could have sold this for a fortunate.
 
+%[https://media.giphy.com/media/l0IsH7VVszP2tnzuo/giphy.gif]
+
 He was right. I wanted to finish my studies ASAP and make money with programming. I didn't want to go to University - I was thinking, why waste four years when I could be selling people what they need?
 
 Finally, thanks to my parents, I decided to give the University a shot. I'll skip the debate on formal education or Bootcamps. I believe they don't compare. They provide different opportunities. If you go to the University, you'll encounter some situations only a University can bring. For example, I was able to publish a scientific work that has an ISBN! Whether they are relevant for what you'll be doing later, you'll find that out.
