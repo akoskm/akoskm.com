@@ -1,4 +1,4 @@
-## How to use expression-session with your custom SessionData object and TypeScript
+## How to use express-session with your custom SessionData object and TypeScript
 
 This blog post is for those who are running into a problem where they want to use custom data on express-session's `session` object. In my case it was a `user` object:
 
