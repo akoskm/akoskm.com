@@ -8,7 +8,7 @@ At some point in my career, I was also a beginner, and if you are too - I don't 
 
 So here's my journey of becoming a Web Developer with no formal education when I was about to start middle school.
 
-# Home to become a Web Developer, or really, anything
+# How to become a Web Developer, or really, anything
 
 There has to be some initial motivation to learn more about the profession. You most definitely can't become something you don't know anything about. You can't become a carpenter if you've never heard about carpenters.
 
