@@ -205,4 +205,4 @@ The logging was made possible by the interprocess communication between the Rend
 
 Congratulations! You just used NodeJS in your Electron application!
 
-What you do next with the NodeJS API in your Desktop App is up to you!
+What you do next with the NodeJS API in your Desktop App is up to you. 🤖
