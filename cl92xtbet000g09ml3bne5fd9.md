@@ -1,1 +1,111 @@
-IyMgSG93IHRvIHNvbHZlIFJlYWN0J3MgIlRoaXMgc3ludGhldGljIGV2ZW50IGlzIHJldXNlZCBmb3IgcGVyZm9ybWFuY2UgcmVhc29ucyIgd2FybmluZwoKUmVhY3QgZG9lcyBtYW55IHRoaW5ncyB1bmRlciB0aGUgaG9vZCB0byBpbXByb3ZlIHBlcmZvcm1hbmNlLgoKT25lIG9mIHRob3NlIHRoaW5ncyBpcyBwYXNzaW5nIHN5bnRoZXRpYyBldmVudCBvYmplY3RzIHRvIGV2ZW50IGhhbmRsZXJzIGluc3RlYWQgb2YgcmVhbCBldmVudCBvYmplY3RzLgoKKlRoaXMgaXMgb25seSByZWxldmFudCBmb3IgUmVhY3QgMTYgYW5kIFJlYWN0IE5hdGl2ZSEgSW4gUmVhY3QgMTcsIHlvdSBkb24ndCBoYXZlIHRoaXMgcHJvYmxlbSBhbnltb3JlLioKCldoZW4gdGhlIGV2ZW50IGhhbmRsZXIgY2FsbCBlbmRzLCBSZWFjdCBudWxsaWZpZXMgdGhlIHByb3BlcnRpZXMgb2YgdGhlIHN5bnRoZXRpYyBldmVudCBvYmplY3QuCgpJZiB5b3UgdHJ5IHRvIGFjY2VzcyBhbnkgb2YgdGhlIGBlLnRhcmdldGAgcHJvcGVydGllcyBhZnRlciB0aGUgZXZlbnQgaGFuZGxlciBoYXMgZXhpdGVkLCB5b3Ugd2lsbCBnZXQgYG51bGxgLgoKIyMgRGVtbwoKTGV0IG1lIGRlbW9uc3RyYXRlIHRoaXMgd2l0aCBhIHNpbXBsZSBleGFtcGxlOgoKYGBgCiAgZnVuY3Rpb24gaGFuZGxlQ2hhbmdlKGUpIHsKICAgIGNvbnNvbGUubG9nKCJlbnRlciIsIGUudGFyZ2V0LnZhbHVlKTsKICAgIHNldFRpbWVvdXQoKCkgPT4gewogICAgICBjb25zb2xlLmxvZyhlLnRhcmdldCk7CiAgICB9LCAxMDApOwogICAgY29uc29sZS5sb2coImV4aXQiLCBlLnRhcmdldC52YWx1ZSk7CiAgfQpgYGAKCiFbd2FybmluZy5naWZdKGh0dHBzOi8vY2RuLmhhc2hub2RlLmNvbS9yZXMvaGFzaG5vZGUvaW1hZ2UvdXBsb2FkL3YxNjY1NDAzNDk3MjU5L21aTWktdFliUC5naWYgYWxpZ249ImxlZnQiKQoKWW91IGNhbiBhbHNvIHRyeSB0aGUgc2FuZGJveCBbaGVyZV0oaHR0cHM6Ly9jb2Rlc2FuZGJveC5pby9zL2hhcHB5LWR1c3QteDI1NmxiP2ZpbGU9L3NyYy9BcHAuanMpLgoKVGhlIHdhcm5pbmcgaW4gdGhlIGNvbnNvbGU6CgoqV2FybmluZzogVGhpcyBzeW50aGV0aWMgZXZlbnQgaXMgcmV1c2VkIGZvciBwZXJmb3JtYW5jZSByZWFzb25zLiBJZiB5b3Ugc2VlIHRoaXMsIHlvdSdyZSBhY2Nlc3NpbmcgdGhlIHByb3BlcnR5IGB0YXJnZXRgIG9uIGEgcmVsZWFzZWQvbnVsbGlmaWVkIHN5bnRoZXRpYyBldmVudC4gVGhpcyBpcyBzZXQgdG8gbnVsbC4gSWYgeW91IG11c3Qga2VlcCB0aGUgb3JpZ2luYWwgc3ludGhldGljIGV2ZW50IGFyb3VuZCwgdXNlIGV2ZW50LnBlcnNpc3QoKS4gU2VlIGh0dHBzOi8vZmIubWUvcmVhY3QtZXZlbnQtcG9vbGluZyBmb3IgbW9yZSBpbmZvcm1hdGlvbi4qCgojIyBSZWFsLXdvcmxkIHNjZW5hcmlvCgpJIHdhbnRlZCB0byBhZGQgYSBuZXcgaW5wdXQgdG8gYW4gZXhpc3RpbmcgZm9ybSBpbiBhIFJlYWN0IDE2IGFwcGxpY2F0aW9uLgoKVGhlIGNvZGViYXNlIHVzZWQgcmVmcyB0byBjYXB0dXJlIGlucHV0IHZhbHVlcyBpbnN0ZWFkIG9mIGBvbkNoYW5nZWAgaGFuZGxlcy4gSSB0aG91Z2h0OiAiV2UgY2FuIGRvIGJldHRlciB0aGFuIHRoaXMuIiBhbmQgYWRkZWQgYSBwcm9wZXIgYG9uQ2hhbmdlYCBoYW5kbGUgZm9yIG15IG5ldyBpbnB1dC4KCkJlY2F1c2Ugb2YgdGhlIGV4aXN0aW5nIGxvZ2ljLCBJIGFsc28gaGFkIHRvIG1lcmdlIHRoZSBjdXJyZW50IHN0YXRlIHdpdGggdGhlIHZhbHVlIG9mIG15IGlucHV0OgoKYGBgCiAgZnVuY3Rpb24gaGFuZGxlRW1haWxJbnB1dChlKSB7CiAgICBzZXRTdGF0ZSgocHJldlN0YXRlKSA9PiAoewogICAgICAuLi5wcmV2U3RhdGUsCiAgICAgIHVzZXJFbWFpbDogZS50YXJnZXQudmFsdWUsCiAgICB9KSk7CiAgfQpgYGAKQW5kIHRoaXMgaXMgd2hlcmUgdGhlIHByb2JsZW0gc3VyZmFjZWQ6CgoqV2FybmluZzogVGhpcyBzeW50aGV0aWMgZXZlbnQgaXMgcmV1c2VkIGZvciBwZXJmb3JtYW5jZSByZWFzb25zLioKCkFsb25nc2lkZSB3aXRoIGFuIGVycm9yIG9uIHRoYXQgbGluZSB3aGVyZSBJIHdhcyBzZXR0aW5nIHRoZSBuZXcgc3RhdGU6CgpgYGAKVW5jYXVnaHQgVHlwZUVycm9yOiBlLnRhcmdldCBpcyBudWxsCmBgYAoKSSB3YXMgY3VyaW91cyBhYm91dCB3aGF0J3MgaGFwcGVuaW5nIHVuZGVyIHRoZSBob29kLCBzbyBJIGFkZGVkIGEgYGNvbnNvbGUubG9nYCB0byBzZWUgd2hhdCBoYXBwZW5zIGluc2lkZSBgc2V0U3RhdGVgOgoKYGBgCiAgZnVuY3Rpb24gaGFuZGxlRW1haWxJbnB1dChlKSB7CiAgICBzZXRTdGF0ZSgocHJldlN0YXRlKSA9PiB7CiAgICAgIGNvbnNvbGUubG9nKGUudGFyZ2V0KTsKICAgICAgcmV0dXJuIHsKICAgICAgICAuLi5wcmV2U3RhdGUsCiAgICAgICAgdXNlckVtYWlsOiBlLnRhcmdldC52YWx1ZSwKICAgICAgfTsKICAgIH0pOwogIH0KYGBgCgpPbiB0aGUgZmlyc3Qga2V5cHJlc3MgaW5zaWRlIHRoZSBmb3JtLCBub3RoaW5nIHVudXN1YWwgaGFzIGhhcHBlbmVkLiBJIHJlY2VpdmVkIHRoZSB0YXJnZXQgZWxlbWVudCBvbiB0aGUgY29uc29sZSwgYXMgSSBleHBlY3RlZDoKCmBgYAo8aW5wdXQgaWQ9ImVtYWlsIiBjbGFzcz0iZm9ybS1jb250cm9sIiBzdHlsZT0ibWF4LXdpZHRoOiA0MDBweDsiIG5hbWU9ImVtYWlsIiBwbGFjZWhvbGRlcj0iZWcuIGJhckBleGFtcGxlLmNvbSIgdHlwZT0iZW1haWwiIGFyaWEtaW52YWxpZD0iZmFsc2UiIHZhbHVlPSIiIGRhdGEtY29tLmJpdHdhcmRlbi5icm93c2VyLnVzZXItZWRpdGVkPSJ5ZXMiPgpgYGAKCkhvd2V2ZXIsIG9uIHRoZSBuZXh0IGtleXByZXNzLCBJIHJlY2VpdmVkIGBudWxsYC4KCkFzIHdlIGV4cGxhaW5lZCBhdCB0aGUgYmVnaW5uaW5nIG9mIHRoaXMgcG9zdCBhbmQgdGhlIFtkb2NzXShodHRwczovL3JlYWN0anMub3JnL2RvY3MvbGVnYWN5LWV2ZW50LXBvb2xpbmcuaHRtbCkgYWxzbyB3cml0ZSwgdGhpcyB3YXMgaGFwcGVuaW5nIGJlY2F1c2UgdGhlIGBTeW50aGV0aWNFdmVudGAgb2JqZWN0IHRoYXQgYGhhbmRsZUVtYWlsSW5wdXRgIHJlY2VpdmVkIGhhZCBpdHMgcHJvcGVydGllcyBudWxsaWZpZWQgYWZ0ZXIgdGhlIGV2ZW50IGhhbmRsZXIgY2FsbCBlbmRlZC4KCkFuZCBiZWNhdXNlIGBzZXRTdGF0ZWAgYWN0aW9ucyBhcmUgYXN5bmNocm9ub3VzIGFuZCBhcmUgYmF0Y2hlZCBmb3IgcGVyZm9ybWFuY2UgZ2FpbnMsIHRoZSBjYWxsYmFjayB3aWxsIGJlIGNhbGxlZCBhZnRlciB3ZSBoYXZlIGFscmVhZHkgbGVmdCB0aGUgYGhhbmRsZUVtYWlsSW5wdXRgIGZ1bmN0aW9uLgoKIyMgU29sdXRpb25zCgpUaGVyZSBhcmUgdHdvIHNvbHV0aW9ucyB0byBvdmVyY29tZSB0aGlzLgoKRmlyc3QgaXMgd2hhdCB0aGUgZG9jcyB0ZWxsIHlvdToKCkNhbGwgYGUucGVyc2lzdCgpO2AgdG8gcGVyc2lzdCB0aGUgZXZlbnQgdGhhdCBlbnRlcmVkIHlvdXIgaW5wdXQgaGFuZGxlci4KCkJ1dCBJJ3ZlIGZvdW5kIGFub3RoZXIgd2F5IHRvIGRlYWwgd2l0aCB0aGlzIHByb2JsZW0uIAoKSSdtIHNpbXBseSBjb3B5aW5nIHRoZSB2YWx1ZSBvZiBgZS50YXJnZXQudmFsdWVgIGNvbnRhaW5lZCBpbiB0aGUgU3ludGV0aGljIGV2ZW50LCBzbyBJIGNhbiBhY2Nlc3MgaXQgZXZlbiBhZnRlciB0aGUgZnVuY3Rpb24gaGFzIGV4aXRlZDoKCmBgYAogIGZ1bmN0aW9uIGhhbmRsZUVtYWlsSW5wdXQoZSkgewogICAgY29uc3QgeyB2YWx1ZSB9ID0gZS50YXJnZXQ7CiAgICBzZXRTdGF0ZSgocHJldlN0YXRlKSA9PiAoewogICAgICAuLi5wcmV2U3RhdGUsCiAgICAgIHVzZXJFbWFpbDogdmFsdWUsCiAgICB9KSk7CiAgfQpgYGAKCkkgaG9wZSB0aGlzIHBvc3QgaGVscGVkIHlvdSB0byBhdm9pZCB0aGUgd2FybmluZyBhbmQgZml4IHlvdXIgYXBwbGljYXRpb24ncyBiZWhhdmlvci4KCkxldCBtZSBrbm93IGlmIHlvdSBoYXZlIGFueSBjb21tZW50cyBvciBxdWVzdGlvbnMgcmVnYXJkaW5nIHRoaXMgc29sdXRpb24hIA==
+# How to solve React's "This synthetic event is reused for performance reasons" warning
+
+React does many things under the hood to improve performance.
+
+One of those things is passing synthetic event objects to event handlers instead of real event objects.
+
+*This is only relevant for React 16 and React Native! In React 17, you don't have this problem anymore.*
+
+When the event handler call ends, React nullifies the properties of the synthetic event object.
+
+If you try to access any of the `e.target` properties after the event handler has exited, you will get `null`.
+
+## Demo
+
+Let me demonstrate this with a simple example:
+
+```
+  function handleChange(e) {
+    console.log("enter", e.target.value);
+    setTimeout(() => {
+      console.log(e.target);
+    }, 100);
+    console.log("exit", e.target.value);
+  }
+```
+
+![warning.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1665403497259/mZMi-tYbP.gif align="left")
+
+You can also try the sandbox [here](https://codesandbox.io/s/happy-dust-x256lb?file=/src/App.js).
+
+The warning in the console:
+
+*Warning: This synthetic event is reused for performance reasons. If you see this, you're accessing the property `target` on a released/nullified synthetic event. This is set to null. If you must keep the original synthetic event around, use event.persist(). See https://fb.me/react-event-pooling for more information.*
+
+## Real-world scenario
+
+I wanted to add a new input to an existing form in a React 16 application.
+
+The codebase used refs to capture input values instead of `onChange` handles. I thought: "We can do better than this." and added a proper `onChange` handle for my new input.
+
+Because of the existing logic, I also had to merge the current state with the value of my input:
+
+```
+  function handleEmailInput(e) {
+    setState((prevState) => ({
+      ...prevState,
+      userEmail: e.target.value,
+    }));
+  }
+```
+And this is where the problem surfaced:
+
+*Warning: This synthetic event is reused for performance reasons.*
+
+Alongside with an error on that line where I was setting the new state:
+
+```
+Uncaught TypeError: e.target is null
+```
+
+I was curious about what's happening under the hood, so I added a `console.log` to see what happens inside `setState`:
+
+```
+  function handleEmailInput(e) {
+    setState((prevState) => {
+      console.log(e.target);
+      return {
+        ...prevState,
+        userEmail: e.target.value,
+      };
+    });
+  }
+```
+
+On the first keypress inside the form, nothing unusual has happened. I received the target element on the console, as I expected:
+
+```
+<input id="email" class="form-control" style="max-width: 400px;" name="email" placeholder="eg. bar@example.com" type="email" aria-invalid="false" value="" data-com.bitwarden.browser.user-edited="yes">
+```
+
+However, on the next keypress, I received `null`.
+
+As we explained at the beginning of this post and the [docs](https://reactjs.org/docs/legacy-event-pooling.html) also write, this was happening because the `SyntheticEvent` object that `handleEmailInput` received had its properties nullified after the event handler call ended.
+
+And because `setState` actions are asynchronous and are batched for performance gains, the callback will be called after we have already left the `handleEmailInput` function.
+
+## Solutions
+
+There are two solutions to overcome this.
+
+First is what the docs tell you:
+
+Call `e.persist();` to persist the event that entered your input handler.
+
+But I've found another way to deal with this problem. 
+
+I'm simply copying the value of `e.target.value` contained in the Syntethic event, so I can access it even after the function has exited:
+
+```
+  function handleEmailInput(e) {
+    const { value } = e.target;
+    setState((prevState) => ({
+      ...prevState,
+      userEmail: value,
+    }));
+  }
+```
+
+I hope this post helped you to avoid the warning and fix your application's behavior.
+
+Let me know if you have any comments or questions regarding this solution! 
