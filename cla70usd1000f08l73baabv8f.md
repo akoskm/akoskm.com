@@ -178,3 +178,5 @@ How it started:
 How it's going:
 
 %[https://twitter.com/akoskm/status/1587354756548362240?s=20&t=bTWvz6UrDmv__c_AroCyfg]
+
+If you liked this post, give it some Emojis so more people can see it. 🙇‍♂️
