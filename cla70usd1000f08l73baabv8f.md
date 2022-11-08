@@ -4,6 +4,12 @@ First of all, congratulations for not turning your back on browsers other than G
 
 I've encountered many issues and spent hours and days looking for solutions while trying to support multiple browsers. By sharing my experience, I hope you will spend less time fixing the incompatibility issues and more time working on your plugin.
 
+GitHub repo: [https://github.com/akoskm/vite-react-tailwindcss-browser-extension](https://github.com/akoskm/vite-react-tailwindcss-browser-extension)
+
+Before we dive into, you can support me by subscribing to my newsletter. It's all about writing, stats and strategies for growing at a sustainable peace.
+
+%%[substack] 
+
 ## The current state of WebExtensions
 
 WebExtensions is a platform for building extensions for both Firefox and Chrome since 2015 - that's when Firefox [adopted this standard](https://blog.mozilla.org/addons/2015/08/21/the-future-of-developing-firefox-add-ons/).
