@@ -28,11 +28,9 @@ If you’d like to support my work and you’re interested in the “behind the 
 
 %%[substack] 
 
-## What we’re going to build?
+To show you the power of communicating with APIs from your extension, we're going to build Cat Facts!
 
-Today we’re going to build Cat Facts!
-
-A questionably helpful browser extension that shows you facts about cats.
+A questionably helpful browser extension that shows you facts about cats. 😄
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1668764860915/Hm8wPBpmv.gif align="left")
 
@@ -40,7 +38,7 @@ I will base the app’s development on the code I already shared with you in [ht
 
 Of course, there will be a different repository for CatFacts at the end of this post!
 
-# Where do you put your API calls?
+# How and where to do the API calls?
 
 Our browser extensions’” background” script will be the place for these operations.
 
