@@ -406,6 +406,4 @@ If you liked this post, give it some emojis, comment, and share it on your socia
 
 Did you run into trouble? Don’t hesitate to comment or reach out to me on [Twitter](http://twitter.com/akoskm).
 
-If you’d like to support my work and you’re interested in the “behind the scenes” of this blog, check out my free newsletter:
-
-%%[substack]
+See you in the next one! 👋
