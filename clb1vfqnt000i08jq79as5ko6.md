@@ -8,11 +8,11 @@ If you’d like to support me and read more articles like this, consider subscri
 
 %%[substack] 
 
+Let me start with a personal story.
+
 # Old is the new New
 
-Let me start with a personal story: I started working with PHP in 2003.
-
-I built a couple of different apps:
+I started working with PHP in 2003 and built a couple of different apps:
 
 *   exchange rate calculator
     
