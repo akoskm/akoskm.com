@@ -1,4 +1,4 @@
-## I want to build my blog because that's one of the best ways to gain credibility in my niche
+# I want to build my blog because that's one of the best ways to gain credibility in my niche
 
 If you want to make a living out of writing in the future, like me, I believe long-form content is where you should focus.
 
@@ -48,7 +48,7 @@ It's selling the shovels during the gold rush.
 
 Community building influencers spreading the "Create more than you consume" mindset plays right into their hands. While the thing that I should be applying is Stephen King's quote:
 
-> "If you don't have time to read, you don't have the time (or the tools) to write. Simple as that." 
+> "If you don't have time to read, you don't have the time (or the tools) to write. Simple as that."
 
 With the vast amount of short, user or AI-generated content, its value becomes questionable to me.
 
@@ -66,7 +66,7 @@ And you'll often find that specific software appears on top of each Twitter thre
 
 And this is becoming a real problem.
 
-%[https://twitter.com/GergelyOrosz/status/1549695256819548163?s=20&t=NwdrpKRrFx93WaAc4HVimQ]
+%[https://twitter.com/GergelyOrosz/status/1549695256819548163?s=20&t=NwdrpKRrFx93WaAc4HVimQ] 
 
 For people who want to try how it looks to make money from social media, doing promos is very appealing - and you might get the chance to do it sooner than you think.
 
@@ -88,7 +88,7 @@ And believe me, this builds credibility like crazy.
 
 [Arvid Kahl](https://twitter.com/arvidkahl) had about 10k followers on Twitter just a year ago. I read his fantastic book [Zero to Sold](https://zerotosold.com/), which he actively promoted back then. In the meantime, he wrote another book, [The Embedded Entrepreneur](https://embeddedentrepreneur.com), and now he's at almost 80k followers.
 
-[Daniel Vasalo](https://twitter.com/dvassallo) a year ago had a book published [The Good Parts of AWS](https://dvassallo.gumroad.com/l/aws-good-parts) and a course Everyone Can Build a Twitter Audience. In the meantime, he started a paid community. He's been through an insane growth as well.
+[Daniel Vassallo](https://twitter.com/dvassallo) a year ago had a book published [The Good Parts of AWS](https://dvassallo.gumroad.com/l/aws-good-parts) and a course Everyone Can Build a Twitter Audience. In the meantime, he started a paid community. He's been through an insane growth as well.
 
 [Gergely Orosz](https://twitter.com/GergelyOrosz) started his blog, [The Pragmatic Engineer](https://blog.pragmaticengineer.com/) in 2015. He has been writing articles continuously since then. In 2020 he started making a living from writing his weekly newsletter.
 
