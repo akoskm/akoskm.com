@@ -127,7 +127,7 @@ The first and most important part of this test is about setting up the `MockedPr
 
 In the above example, the response we specified is an error response.
 
-We expect the `if (error) return <p>Error: {error.message}</p>;` branch of our component to trigger and render the error message.
+We expect the `if (error) return <p>Error: {error.message}</p>;` branch of our component to run and render the error message.
 
 This is the only thing we want to test for this scenario:
 
