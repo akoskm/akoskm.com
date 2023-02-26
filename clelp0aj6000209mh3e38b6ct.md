@@ -13,7 +13,7 @@ Usually, you have to consider three cases for such components and their tests:
 
 But you also want to avoid calling the real endpoint, which in our case, is `https://swapi-graphql.netlify.app/.netlify/functions/index`. This is a public GraphQL endpoint returning data about Star Wars movies.
 
-What you don't want to avoid is checking out my newsletter! I returned to part-time freelancing in February. Besides my musings about content, I also want to share some of my strategies for finding the first clients after being active for ***six*** years and effectively closing some jobs.
+What you don't want to avoid is checking out my newsletter! I returned to part-time freelancing in February. Besides my musings about content, I also want to share some of my strategies for finding the first clients and effectively closing some jobs after being inactive for ***six*** years. So almost starting fresh.
 
 %%[substack] 
 
