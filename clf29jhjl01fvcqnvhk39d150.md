@@ -10,14 +10,6 @@ tags: web-development, seo, reactjs, beginners, nextjs
 
 ---
 
-Are you struggling with getting your Next.js 13 app to rank well on search engines? Look no further! In this blog post, I’ll show you some essential SEO optimizations that you can implement to make your app more SEO-friendly.
-
-We’ll learn how to create meta tags, generate sitemaps during build-time, and add canonical URLs to dynamically generated pages.
-
-Whether you're building a blog, an e-commerce site, or any other web app, read on to learn how to improve your app's SEO performance.
-
----
-
 My story with Next.js and SEO started with [www.beginneritjobs.com](https://www.beginneritjobs.com/), a job board for beginners I started building in my spare time in November 2022.
 
 I picked Next.js because I had never tried it before, and I heard it’s ”SEO friendly”, although I never looked up what people mean by that.
