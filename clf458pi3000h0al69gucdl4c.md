@@ -75,7 +75,7 @@ But issue templates are handy when something is already broken, and the bug is a
 
 So we use them with PR templates to further reduce debugging time - because a bug prevented, reduced time needed to debug, right?
 
-## Create actionable Pull Request
+## Create an actionable Pull Request
 
 We already know that context switching is expensive.
 
