@@ -18,6 +18,8 @@ After seven years, I’m proud to still work with one of my first freelancing cl
 
 There are a couple of reasons why we've been working together for soo long. One is being efficient at async remote work.
 
+%%[substack] 
+
 This post doesn't focus on the technical aspects of debugging but on the practices and guidelines we use to speed up debugging and our entire remote and async workflow.
 
 ## The difference between async and remote work
