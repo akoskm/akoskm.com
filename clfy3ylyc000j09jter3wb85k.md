@@ -77,7 +77,9 @@ There are a couple of ways to fix this:
 
 1. move the `if (players)` check inside `renderWelcome`
     
-2. create a `RenderWelcome` component
+2. pass `players` as an argument to `renderWelcome` and make it not optional
+    
+3. create a `RenderWelcome` component
     
 
 And there's a 3rd way to fix it, by adding `players!` , but let’s not talk about lazy TypeScript. 😄
