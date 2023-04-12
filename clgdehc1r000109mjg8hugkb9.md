@@ -54,7 +54,7 @@ export default function App() {
     <div className="App">
       <h1>Hello CodeSandbox</h1>
       <h2>Start editing to see some magic happen!</h2>
-      <Profile user={user} />
+      <Profile user={data.user} />
     </div>
   );
 }
@@ -98,7 +98,7 @@ test("renders app", () => {
     profileId: "1234-fake-4567-uuid"
   });
 
-  jest.spyOn(fetchUserData).mockReturnValue(user);
+  jest.spyOn(fetchUserData).mockReturnValue({ data: { user }});
 
   render(<App />);
 
