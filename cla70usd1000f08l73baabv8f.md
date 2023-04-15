@@ -1,4 +1,16 @@
-# Building a Cross Browser Extension in 2022
+---
+title: "Building a Cross Browser Extension in 2022"
+seoTitle: "Buildin a cross browser extension? You might want to wait for a little"
+seoDescription: "By sharing my experience, I hope you will spend less time fixing the incompatibility issues and more time working on your plugin."
+datePublished: Mon Nov 07 2022 16:52:49 GMT+0000 (Coordinated Universal Time)
+cuid: cla70usd1000f08l73baabv8f
+slug: building-a-cross-browser-extension
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1667839488265/FY11L9Hc9.png
+tags: firefox, javascript, web-development, chrome-extension, browser-extension
+
+---
+
+> 2023 Update: Although Manifest v3 support was added in [Firefox 109.0](https://www.mozilla.org/en-US/firefox/109.0/releasenotes/) it’s far from being compatible with Chrome’s Manifest v3 so I still recommend you use this setup.
 
 First of all, congratulations for not turning your back on browsers other than Google Chrome and building a Cross Browser Extension! 👏
 
@@ -34,13 +46,13 @@ You might find a repository template or blog posts that use your favorite JavaSc
 
 ## Manifest v2 vs v3
 
-_I couldn't pick a worse time to build a cross browser browser extension._
+*I couldn't pick a worse time to build a cross browser browser extension.*
 
 So these specifications, called Manifest files, essentially contain information about your extension. What it is allowed to do, what resources it uses, the JavaScript and CSS files required to make it work, and so on.
 
 There are currently two Manifest versions in play: v2 for Firefox and v3 for Chrome.
 
-While you can write your entire plugin in Manifest v2 and test it in _both_ browsers, the Chrome web store won't allow you to publish a new extension with Manifest v2.
+While you can write your entire plugin in Manifest v2 and test it in *both* browsers, the Chrome web store won't allow you to publish a new extension with Manifest v2.
 
 Firefox plans to support Manifest v3 fully by the [end of 2022](https://blog.mozilla.org/addons/2022/05/18/manifest-v3-in-firefox-recap-next-steps/).
 
@@ -177,6 +189,6 @@ How it started:
 
 How it's going:
 
-%[https://twitter.com/akoskm/status/1587354756548362240?s=20&t=bTWvz6UrDmv__c_AroCyfg]
+%[https://twitter.com/akoskm/status/1587354756548362240?s=20&t=bTWvz6UrDmv__c_AroCyfg] 
 
 If you liked this post, give it some Emojis so more people can see it. 🙇‍♂️
