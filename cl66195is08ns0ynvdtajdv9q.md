@@ -1,4 +1,14 @@
-## How I became a Web Developer
+---
+title: "How I became a Web Developer"
+seoTitle: "How I became a Web Developer"
+seoDescription: "My story of becoming a Web Developer when dial-up modems were rare in households and computers cost a fortune."
+datePublished: Fri Jul 29 2022 05:37:23 GMT+0000 (Coordinated Universal Time)
+cuid: cl66195is08ns0ynvdtajdv9q
+slug: how-i-became-a-web-developer
+cover: https://cdn.hashnode.com/res/hashnode/image/unsplash/p8DjPfqEhW0/upload/v1659034918457/0dd1x8QdlV.jpeg
+tags: programming, web-development, beginners, 2articles1week, learning-journey
+
+---
 
 I often post Twitter threads about React, TypeScript, and JavaScript courses. However, after every successful post, my DMs are almost full of people asking, How to become a Web Developer?
 
@@ -12,25 +22,23 @@ So here's my journey of becoming a Web Developer with no formal education when I
 
 There has to be some initial motivation to learn more about the profession. You most definitely can't become something you don't know anything about. You can't become a carpenter if you've never heard about carpenters.
 
-But I'm sure - since you're reading this - you already heard about web developers. 
+But I'm sure - since you're reading this - you already heard about web developers.
 
 In 2001 I got my first computer and my first dial-up modem.
 
-In my community, people knew almost nothing about computers, except that they are the next big thing and are expensive. Kind of like Crypto these days. For the price of a PC, you could have bought tons of stuff.
-My dad was thinking hard about buying a trailer or a computer. He could've bought a trailer for work for that money.  But in the end, I think he made the right choice. 😄
+In my community, people knew almost nothing about computers, except that they are the next big thing and are expensive. Kind of like Crypto these days. For the price of a PC, you could have bought tons of stuff. My dad was thinking hard about buying a trailer or a computer. He could've bought a trailer for work for that money. But in the end, I think he made the right choice. 😄
 
 So we discovered this thing called: the Internet. I was fascinated by the fact that anyone in the world can make a website, a creation, a hello world with a marquee effect - and it becomes a thing for everyone. You can go, see it, tell it to other people where they can find it - if they had Internet, it was rare back then.
 
-%[https://media.giphy.com/media/krtDmVuQGssOtMWfRg/giphy.gif]
+%[https://media.giphy.com/media/krtDmVuQGssOtMWfRg/giphy.gif] 
 
 I knew I had to understand how people create websites and how I could make them too.
 
-_At this point in my life, I had little clue what HTML or CSS is. I knew some tools make a website appear in a certain way. My initial motivation wasn't to learn the tools but to learn to build the thing._
+*At this point in my life, I had little clue what HTML or CSS is. I knew some tools make a website appear in a certain way. My initial motivation wasn't to learn the tools but to learn to build the thing.*
 
 So how to become a web developer? What's the neverending source of drive that can last forever?
 
-Is it HTML? I doubt so. I don't even write pure HTML anymore.
-Is it CSS? I never truly learned CSS and use UI Frameworks like Bootstrap and TailwindCSS to this day.
+Is it HTML? I doubt so. I don't even write pure HTML anymore. Is it CSS? I never truly learned CSS and use UI Frameworks like Bootstrap and TailwindCSS to this day.
 
 I'd say it's the curiosity to explore the web and understand what you can do with it. To unleash what you have learned, again and again, to build different things with or without purpose.
 
@@ -41,7 +49,8 @@ By 2003, the Internet was already "big" among the local nerds. I knew one other 
 How did we learn to create HTML sites? Macromedia Dreamweaver!
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1659068892272/RidS3pG8Z.png align="center")
-_This is version 8, I used something soo old I couldn't find a picture of it_ 😂
+
+*This is version 8, I used something soo old I couldn't find a picture of it* 😂
 
 What? No books? No Fancy editors?
 
@@ -51,7 +60,7 @@ We built a ton of websites in Dreamweaver's visual editor. And I mean a Ton. A w
 
 But some annoying bugs forced us to look under the hood and switch to the Code view of Dreamweaver.
 
-%[https://media.giphy.com/media/qRVDIxBnu57gP0Jkg6/giphy.gif]
+%[https://media.giphy.com/media/qRVDIxBnu57gP0Jkg6/giphy.gif] 
 
 And this is how we got introduced to HTML.
 
@@ -63,9 +72,7 @@ And this is how we switched from the visual to the HTML editor.
 
 In the meantime, our English has improved, and we started looking at online forums to expand our knowledge.
 
-One of the most important technologies that I picked up next and that led to my first client was:
-JavaScript? No. PHP. No! ASP? Nah
-It was Joomla!
+One of the most important technologies that I picked up next and that led to my first client was: JavaScript? No. PHP. No! ASP? Nah It was Joomla!
 
 Why on Earth did you learn Joomla - you're wondering (Joomla is a Content Management System written in PHP).
 
@@ -81,7 +88,7 @@ I showed them Joomla and they were blown away. And this is how I landed my first
 
 # PHP, more side hustles, University
 
-In 2004 I was already learning PHP and tweaking Joomla. I also built a PHP app that was able to bulk-modify excel files.
+In 2004 I was already learning PHP, and a year later tweaking Joomla. I also built a PHP app that was able to bulk-modify excel files.
 
 I sold this software to a local shop with a huge inventory where the prices were changing frequently based on the exchange rate of the local currency compared to USD. They were calculating and updating every price manually.
 
@@ -101,7 +108,7 @@ One of my teachers only told me this after I presented my final work:
 
 > you could have sold this for a fortunate.
 
-%[https://media.giphy.com/media/l0IsH7VVszP2tnzuo/giphy.gif]
+%[https://media.giphy.com/media/l0IsH7VVszP2tnzuo/giphy.gif] 
 
 He was right. I wanted to finish my studies ASAP and make money with programming. I didn't want to go to University - I was thinking, why waste four years when I could be selling people what they need?
 
