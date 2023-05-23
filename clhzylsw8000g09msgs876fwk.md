@@ -13,7 +13,7 @@ tags: javascript, web-development, cms, jamstack, strapi
 
 It was around 2003 when I discovered Dreamweaver, and it changed web development for me forever.
 
-[In 2005](https://akoskm.com/how-i-became-a-web-developer#heading-php-more-side-hustles-university) I successfully sold two websites based on the famous Joomla, a Content Management System (or CMS for short) written in PHP.
+[In 2005-2006](https://akoskm.com/how-i-became-a-web-developer#heading-php-more-side-hustles-university) I successfully sold two websites based on the famous Joomla, a Content Management System (or CMS for short) written in PHP.
 
 Having a CMS was essential in closing my first sales for one reason: business people could work on the content without my assistance.
 
