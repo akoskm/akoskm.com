@@ -35,7 +35,7 @@ After delivering your solution to the client, their copywriter and marketing tea
 
 This allows you to focus on other projects as the client populates their site with content while providing the client with confidence that they can operate without your constant support.
 
-There are different approaches to implementing CMS solutions. There are traditional CMS solutions (Joomla, WordPress), Decoupled, and Headless CMS solutions. To learn more about the differences between these three, check out this blog post: [Headless CMS explained - an unbiased opinion](https://skyward.digital/blog/headless-cms-explained-an-unbiased-opinion).
+There are different approaches to implementing CMS solutions. There are traditional CMS solutions (Joomla, [WordPress](https://capitaloneshopping.com/s/wordpress.com/coupon)), Decoupled, and Headless CMS solutions. To learn more about the differences between these three, check out this blog post: [Headless CMS explained - an unbiased opinion](https://skyward.digital/blog/headless-cms-explained-an-unbiased-opinion).
 
 I'm going to focus in this post on Headless CMS solutions because, in my opinion, today, it doesn't make much sense to go with the other two.
 
