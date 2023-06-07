@@ -1,4 +1,14 @@
-# How to build static web apps with dynamic routes in Next.js 13
+---
+title: "How to build static web apps with dynamic routes in Next.js 13"
+seoTitle: "How to build static web apps with dynamic routes in Next.js 13"
+seoDescription: "This article will show you how to take advantage of the latest Next.js features: appDir and React Server Components."
+datePublished: Tue Nov 29 2022 07:02:00 GMT+0000 (Coordinated Universal Time)
+cuid: clb1vfqnt000i08jq79as5ko6
+slug: how-to-build-static-web-apps-with-dynamic-routes-in-nextjs-13
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1669617877571/CxPMD-gbc.png
+tags: javascript, web-development, reactjs, beginners, nextjs
+
+---
 
 This article will show you how to take advantage of the latest Next.js features: *appDir* and *React Server Components*.
 
@@ -14,20 +24,20 @@ Let me start with a personal story.
 
 I started working with PHP in 2003 and built a couple of different apps:
 
-*   exchange rate calculator
+* exchange rate calculator
     
-*   a journaling app
+* a journaling app
     
-*   a public forum
+* a public forum
     
-*   a registration platform for a national mathematical competition
+* a registration platform for a national mathematical competition
     
 
 All these apps revolved around the same pattern:
 
-1.  read data from the DB
+1. read data from the DB
     
-2.  show data to the user
+2. show data to the user
     
 
 As I worked on beginneritjobs.com, I realized I’m doing 1. and 2. in JavaScript, with ES6 and TypeScript in Next.js 13.
@@ -55,8 +65,6 @@ First, use `create-next-app` to generate a new Next.js application from scratch,
 ```bash
 % npx create-next-app@latest job-board --experimental-app --ts --eslint
 ```
-
-*Be careful,* `appDir` *is still in beta.*
 
 # The `appDir` layout
 
@@ -151,17 +159,17 @@ export default function JobBoard() {
 
 You might have used `useQuery` or some other tools to get the data, but the process was always the same:
 
-1.  open the webpage
+1. open the webpage
     
-2.  send a bunch of JS to the client
+2. send a bunch of JS to the client
     
-3.  start data fetch
+3. start data fetch
     
-4.  show spinners
+4. show spinners
     
-5.  hide spinners
+5. hide spinners
     
-6.  show data
+6. show data
     
 
 With React Server Components, you can leave your logic and all the libraries needed to render the response on the server.
@@ -299,9 +307,9 @@ Run `npm run build` in the console to build the job board.
 
 We notice that two pages were generated:
 
-*   `/`, our landing page, and
+* `/`, our landing page, and
     
-*   `/jobs/[slug]` that is our dynamic job page
+* `/jobs/[slug]` that is our dynamic job page
     
 
 Now it’s time to test the application.
@@ -400,7 +408,7 @@ Pages load instantly because they are pre-rendered at build time!
 
 [https://github.com/akoskm/nextjs-13-appdir-job-board](https://github.com/akoskm/nextjs-13-appdir-job-board)
 
-* * *
+---
 
 If you liked this post, give it some emojis, comment, and share it on your social media!
 
