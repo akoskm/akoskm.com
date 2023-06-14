@@ -1,4 +1,14 @@
-# How to Test Custom Hooks with React Testing Library and Jest
+---
+title: "How to Test Custom Hooks with React Testing Library and Jest"
+seoTitle: "How to Test Custom Hooks with React Testing Library and Jest"
+seoDescription: "Learn how to test your custom React Hooks with React Testing Library and Jest. You'll find an interactive Codesandox at the end of the post."
+datePublished: Wed Jan 25 2023 07:03:48 GMT+0000 (Coordinated Universal Time)
+cuid: cldbblmeg000q09jpaz2gghv6
+slug: how-to-test-custom-hooks-with-react-testing-library-and-jest
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1674630107879/87618d3c-868b-401b-acef-e263fa009fd7.png
+tags: web-development, reactjs, testing, beginners, testing-library
+
+---
 
 If you've been building React applications for some time now, custom hooks are probably a mechanism you've already come across.
 
