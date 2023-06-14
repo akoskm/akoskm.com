@@ -1,4 +1,13 @@
-# How to Write Stronger Unit Tests with Jest
+---
+title: "How to Write Stronger Unit Tests with Jest"
+seoDescription: "We'll explore why weak tests can leave changes in behavior to land unnoticeably and what we can do to catch these changes early."
+datePublished: Tue Jan 31 2023 09:01:39 GMT+0000 (Coordinated Universal Time)
+cuid: cldk0ga1r005ia1nv2c8h5fp1
+slug: how-to-write-stronger-unit-tests-with-jest
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1674800057736/2b0180ca-c42d-4031-b144-717a52dc1a69.png
+tags: web-development, reactjs, testing, beginners, testing-library
+
+---
 
 Let's talk about something I often encounter in Pull Requests: weak unit tests.
 
