@@ -1,4 +1,12 @@
-# How to test props in React Testing Library
+---
+title: "How to test props in React Testing Library"
+datePublished: Fri Jan 13 2023 09:21:13 GMT+0000 (Coordinated Universal Time)
+cuid: clcub83l5000008jlhubb4i8k
+slug: how-to-test-props-in-react-testing-library
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1673600764582/dc292a95-26a5-4db0-9912-01ef290baeb7.png
+tags: javascript, web-development, reactjs, testing, jest
+
+---
 
 In this post, we'll learn how to test the props a React Function Component receives with React Testing Library and Jest.
 
