@@ -1,4 +1,14 @@
-# How to speed up your integration tests
+---
+title: "How to speed up your integration tests"
+seoTitle: "How to speed up your integration tests"
+seoDescription: "In this post, I'll show you how we speed up the build process for one of our clients. Now they can run 40% more builds on the same budget."
+datePublished: Wed Feb 08 2023 20:56:49 GMT+0000 (Coordinated Universal Time)
+cuid: cldw5isxj000508m99tk8bi9d
+slug: how-to-speed-up-your-integration-tests
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1675799265312/8a3d9581-132d-42ff-be7d-e7628ca1fab5.png
+tags: web-development, testing, beginners, cicd, cypress
+
+---
 
 In this post, I'll show you how we speed up the build process for one of our clients. Now they can run 40% more builds on the same budget.
 
