@@ -41,6 +41,8 @@ That's pretty much these points summarized, plus a few things on how we work wit
 
 But imagine a bullet list with 4 points.
 
+![](https://media.giphy.com/media/DakhsXLRBMtEw41ryv/giphy.gif align="center")
+
 It's not rocket science – on purpose. It feels like you already know all this. As a result, I noticed people glance over the list, thinking, "I've got this."
 
 Except they don't.
@@ -64,6 +66,8 @@ Delayed or inaccurate communication can be costly.
 Because of this, make sure to communicate often and early.
 
 Provide as detailed context as possible, link to issues, pull requests, chat messages, screenshots, screen recordings, and whatever it takes to give the most context possible for the client to decide the next step.
+
+![](https://media.giphy.com/media/ulOopdZL6JQ7mB6pTN/giphy.gif align="center")
 
 When you see something is not going to work or you've been in a similar situation and already know the drawback, let the project leads know. They don't know every little detail, but they'll welcome (and remember!) if you come forward and say, *hey guys, just FYI, I already tried this in another project, and it doesn't work. Most likely will need a different way to solve this*. This saves time that makes everyone happy, just as this next point:
 
