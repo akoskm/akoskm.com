@@ -1,4 +1,14 @@
-# How to Connect Browser Extensions to Supabase
+---
+title: "How to Connect Browser Extensions to Supabase"
+seoTitle: "How to Connect Your Browser Extension to Supabase"
+seoDescription: "Today we'll learn how to use Supabase to add sign-up and sign-in to a browser extension."
+datePublished: Tue Dec 06 2022 08:47:17 GMT+0000 (Coordinated Universal Time)
+cuid: clbbza3hd000108mlcka5etih
+slug: how-to-connect-browser-extensions-to-supabase
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670224165128/WVUZazyFO.png
+tags: javascript, web-development, reactjs, typescript, browser-extension
+
+---
 
 Today we'll learn how to use Supabase to add sign-up and sign-in to a browser extension.
 
@@ -7,6 +17,8 @@ We will reuse our existing cross-browser extension template:
 [https://github.com/akoskm/vite-react-tailwindcss-browser-extension](https://github.com/akoskm/vite-react-tailwindcss-browser-extension)
 
 This post will put the Cat Facts application behind a login screen while teaching you Supabase authentication basics.
+
+<mark>Please note that the manifest file only enables this plugin on https://blank.org. This means that the plugin won't be active on any other site.</mark>
 
 But first things first, let's set up a new Supabase project.
 
@@ -123,13 +135,13 @@ async function handleMessage({ action, value }: Message, response: ResponseCallb
 
 We're using the auth module of the supabase client that already comes with a super straightforward interface for handling the user sign-up flow, sign-in, sign-out, and session retrieval. Here are the functions we use above with links to their official docs:
 
-*   [signUp](https://supabase.com/docs/reference/javascript/auth-signup)
+* [signUp](https://supabase.com/docs/reference/javascript/auth-signup)
     
-*   [signInWithPassword](https://supabase.com/docs/reference/javascript/auth-signinwithpassword)
+* [signInWithPassword](https://supabase.com/docs/reference/javascript/auth-signinwithpassword)
     
-*   [getSession](https://supabase.com/docs/reference/javascript/auth-getsession)
+* [getSession](https://supabase.com/docs/reference/javascript/auth-getsession)
     
-*   [signOut](https://supabase.com/docs/reference/javascript/auth-signout)
+* [signOut](https://supabase.com/docs/reference/javascript/auth-signout)
     
 
 Before we dive into the user sign-up and sign-in, let's talk about how we'll handle showing different screens to the user.
@@ -320,13 +332,13 @@ After you're logged in to Supabase, your options are endless!
 
 You could initialize a new database, as shown [here](https://supabase.com/docs/guides/database), and start doing some CRUD:
 
-*   [create](https://supabase.com/docs/reference/javascript/insert)
+* [create](https://supabase.com/docs/reference/javascript/insert)
     
-*   [read](https://supabase.com/docs/reference/javascript/select)
+* [read](https://supabase.com/docs/reference/javascript/select)
     
-*   [update](https://supabase.com/docs/reference/javascript/update)
+* [update](https://supabase.com/docs/reference/javascript/update)
     
-*   [delete](https://supabase.com/docs/reference/javascript/delete)
+* [delete](https://supabase.com/docs/reference/javascript/delete)
     
 
 on user data using the same JavaScript library you used to create and authenticate a user.
