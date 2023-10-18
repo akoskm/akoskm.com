@@ -29,6 +29,8 @@ And then, in our tests, checking if that string is appearing in the DOM:
   });
 ```
 
+> 2023 October update: the old article now has been updated with [a new section](https://akoskm.com/how-to-test-props-in-react-testing-library#heading-testing-objects-props-without-mocking-the-component) showing a new way to test complex props without mocking the original component. I also added a GitHub repo demonstrating this in action.
+
 This is one of the simplest ways to test components where the props are primitives (strings, numbers, booleans) or translate well into strings.
 
 But how would this assert look like if the Profile component received an `Immutable.List` with hundreds of elements or a huge `Immutable.Map` with 150 keys?
