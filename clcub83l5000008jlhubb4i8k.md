@@ -10,7 +10,7 @@ tags: javascript, web-development, reactjs, testing, jest
 
 In this post, we'll learn how to test the props a React Function Component receives with React Testing Library and Jest.
 
-> 2023 October update: the article got popular and I also found new ways to test component props, especially ones that don't stringify well, such as big Immutable.Map. If you're looking for a better way to test your props while also keeping the component functioning, check out Testing Objects
+> 2023 October update: the article got popular and I also found new ways to test component props, especially ones that don't stringify well, such as big Immutable.Map. If you're looking for a better way to test your props while also keeping the component functioning, check out [Testing Objects](https://akoskm.com/how-to-test-props-in-react-testing-library#heading-testing-objects-props-without-mocking-the-component)
 
 Before React Testing Library appeared, most of us were writing tests with Enzyme.
 
