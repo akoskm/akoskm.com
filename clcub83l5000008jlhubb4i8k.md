@@ -270,8 +270,10 @@ If this is OK with you, keep it, but I think we can do better.
 First, let's set up a mock function that will record the props we passed to `PermissionsContainer`:
 
 ```typescript
-const profileFn = jest.fn();
-jest.mock('../PermissionsContainer', () => (props:any) => profileFn(props));
+const permissionsContainerMock = jest.fn();
+jest.mock('../PermissionsContainer',
+  () => (props:any) => permissionsContainerMock(props)
+);
 ```
 
 We can already assert the props passed to `PermissionsContainer`, but we also want the original component to render.
@@ -308,7 +310,9 @@ import { render, screen } from "@testing-library/react";
 import Profile from "./index";
 
 const permissionsContainerMock = jest.fn();
-jest.mock('../PermissionsContainer', () => (props:any) => permissionsContainerMock(props));
+jest.mock('../PermissionsContainer',
+  () => (props:any) => permissionsContainerMock(props)
+);
 
 describe("Profile", () => {
   const user = Map({
