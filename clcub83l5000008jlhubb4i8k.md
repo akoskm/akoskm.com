@@ -298,7 +298,6 @@ test("renders Container with the correct props", () => {
     ).default;
     return <Profile {...props} />;
   });
-  
 });
 ```
 
