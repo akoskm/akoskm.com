@@ -320,7 +320,7 @@ CI/CD doesn't stop here! While this was enough to get you started, here are some
 
 Good luck with taking your app development workflow to the next level.
 
-I understand this process is not trivial, so if you have any questions, please reach out to me on X [**@akoskm**](https://x.com/akoskm) or in the comments.
+I understand this process is not trivial, so if you have any questions, please reach out to me on X [@akoskm](https://x.com/akoskm) or in the comments.
 
 Thanks,
 
