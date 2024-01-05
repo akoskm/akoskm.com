@@ -106,3 +106,5 @@ If you tell the compiler that the list `externalCollaboratorTypes` is a list of 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1704462116982/ce19e36e-6c74-46f6-b382-656c20b8f380.png align="center")
 
 Now, you can pass in the arbitrary string as the `collaboratorType` and TypeScript will check if it's of the values in the `externalCollaboratorTypes` array.
+
+Here's a [TypeScript playground](https://www.typescriptlang.org/play?#code/MYewdgzgLgBAJgQygmBeGBvAUDGoA2+CARiAE5LkBcmOuMUAngA4CmNA5AOoCWAXgjJwOdAL5ZRAbixZWAD2blYoSLADCAeQAyWgIIAhDQCVdAFWMB9UwE0ACgFEAymlq4ARPYAiASXNG3NB5yUKxkYAj4MPZwPFDkbgA0dG66ngCy3gBy3o6mJn4BMEEhYREwunAAtjxgPNAUcWSJyQDiAKpOpoVuLQCurNDN7hqmABL2RhaaOgbGZsbdGlAAFqEwaiCEJOSUTRIwCBB44NDSWCrQMPIl4fgbW6QN5KYsAy4A2nTTeob5ljYORwAOi8vmMSVw31mf0mAKcQNSGWyuRhSQAumd5IoyLAAGa9MDAKA8cAwOr3IiPXb2YKhW4ACgIlJ2jRebBo9RqAHMAJQ0UibVgIMCuGBkVhQXphK600p3TbMp5kNkDIE1YD4XpwAaMhXbJUqnnScRYcl6qmNGk3CL0xDIIFM-W7IFMNhGmSyBRKGD4wnE0lmh4s8hWukRfS6oMG140V2sEC4mXW+VR3YqiDvMC9SrEUJovkwAX4IUi7C4cWS6XXMMpxVp14QNWEzXaiCRuus17uk2Bjsh2W3CN2hAO83BsguruSIA) where you can experiment with this code.
