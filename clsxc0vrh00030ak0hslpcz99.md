@@ -58,7 +58,7 @@ As a seasoned JS/TS developer, I thought there must be something like MDN for Ja
 
 To my surprise, everything I looked at told me to use a `for`.
 
-*FYI, there's a slice package with* [*contains*](https://pkg.go.dev/slices)*, but this doesn't change the overall philosophy of Go: write it yourself, which isn't entirely a bad thing...*
+*FYI, there's a slice package with*[*contains*](https://pkg.go.dev/slices)*, but this doesn't change the overall philosophy of Go: write it yourself, which isn't entirely a bad thing...*
 
 For a second, I questioned if I had made the right choice by going with Go because there are 5 different ways to do the same in JavaScript, which has been around forever.
 
@@ -112,7 +112,9 @@ Excited already?
 
 ## How to Get Started?
 
-You can do some easy Leetcode problems to get the hang of it.
+Do [https://go.dev/doc/tutorial/getting-started](https://go.dev/doc/tutorial/getting-started) first.
+
+Then, do some easy Leetcode problems to get a hang of the basic syntax, like variable initialization and assignments.
 
 The array manipulations don't require any external packages, so it's a great place to start. But if you're like me, you'll get bored quickly.
 
