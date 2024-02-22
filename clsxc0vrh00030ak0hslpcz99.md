@@ -70,7 +70,7 @@ Gladly, I stopped for a second to think through.
 
 JavaScript has been expanding the language for 30 years, and that's the reason why there are 15-minute-long blog posts on Array Syntax.
 
-## Basic of Programming Revisited
+## Basics of Programming Revisited
 
 > Want an indexOf? Write a for loop!
 > 
