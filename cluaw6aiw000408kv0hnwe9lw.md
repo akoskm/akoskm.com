@@ -269,7 +269,7 @@ Got stuck? Let me know in the comments. 👇 I'm happy to help you out!
 
 Also, don't forget to check the **Resources**, they might answer some of your questions:
 
-# Resources:
+# Resources
 
 * GitHub repo: [https://github.com/akoskm/file-browser-tauri](https://github.com/akoskm/file-browser-tauri)
     
