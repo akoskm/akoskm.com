@@ -202,7 +202,7 @@ export default function Home() {
 
   return (
     // unchanged
-      <form action={transcribeUrl}>
+      <form action={handleUpload}>
         ...
       </form>
     // unchanged
@@ -228,7 +228,7 @@ Fortunately, File has an async function `arrayBuffer` and we can use its result 
 `audioBuffer` is now an instance of `Buffer` that we can persist using `async writeFile` from `fs/promises`. For reference, here's the entire `handleUpload` function:
 
 ```typescript
-  async function transcribeUrl(formData: FormData) {
+  async function handleUpload(formData: FormData) {
     "use server";
     const audioFile = formData.get("audio") as File;
 
