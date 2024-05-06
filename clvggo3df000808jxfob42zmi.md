@@ -147,7 +147,9 @@ Nothing special so far, just a simple form styled with Tailwind that looks like 
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1714122668193/239d1f82-4451-4175-9650-504b2e50c27e.png align="center")
 
-*If you wonder why I picked the title Transcribe Audio, subscribe to my blog because we'll build out an entire audio transcription tool in the next blog post!*
+*If you wonder why I picked the title Transcribe Audio: we'll build out an entire audio transcription tool in the next blog post:*
+
+%[https://akoskm.com/building-an-audio-transcription-app-with-nextjs] 
 
 The server action is happening in the next step.
 
