@@ -2,7 +2,7 @@
 title: "Reimagining Digital Acoustics: Project Varese"
 seoTitle: "Custom SaaS for the AEC Industry with Autodesk, FusionAuth, and React"
 seoDescription: "Custom SaaS for the AEC Industry with Autodesk, FusionAuth, and React with advanced web-based tools and seamless Autodesk integration for the AEC Industry"
-datePublished: Wed May 15 2024 06:45:28 GMT+0000 (Coordinated Universal Time)
+datePublished: Tue Jul 18 2023 10:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clw7gjikk00000amf0o33eyzy
 slug: reimagining-digital-acoustics-project-varese
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1715582202142/67147107-ea45-4666-90ea-c6d6ecff9aa4.webp
