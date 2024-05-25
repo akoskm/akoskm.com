@@ -5,6 +5,7 @@ seoDescription: "Case study on developing a secure, user-friendly browser plugin
 datePublished: Sun Jul 16 2023 10:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clw8ace76000109mb4rhw2zpk
 slug: developing-a-customized-browser-plugin-for-one-digital-trust-a-case-study
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1716611200927/c4449732-9b04-4fb9-8bf0-e90c18984c75.avif
 
 ---
 
