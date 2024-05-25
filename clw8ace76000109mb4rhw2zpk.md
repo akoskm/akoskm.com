@@ -5,13 +5,12 @@ seoDescription: "Case study on developing a secure, user-friendly browser plugin
 datePublished: Sun Jul 16 2023 10:00:00 GMT+0000 (Coordinated Universal Time)
 cuid: clw8ace76000109mb4rhw2zpk
 slug: developing-a-customized-browser-plugin-for-one-digital-trust-a-case-study
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1716611213525/f25b249e-e0df-465a-b324-e96b154163cc.avif
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1716611200927/c4449732-9b04-4fb9-8bf0-e90c18984c75.avif
 
 ---
 
 Innotek was recently approached by One Digital Trust (ODT), a pioneer in estate and inheritance planning platforms, with a challenge to develop a robust browser plugin to streamline user login experiences.
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1715805493780/507d7c88-8425-4b5b-995d-4c0e5cc91650.webp align="center")
 
 # **The Problem Space**
 
