@@ -5,8 +5,8 @@ seoDescription: "Learn to build a magic-link sign-in system using Next.js, Supab
 datePublished: Fri May 31 2024 08:20:15 GMT+0000 (Coordinated Universal Time)
 cuid: clwuez1ew002a08mkaxeedh2o
 slug: how-to-build-a-simple-magic-link-sign-in-with-nextjs-supabase-and-sendgrid
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1717138441974/5b90bfbd-9b9e-4aba-a5a7-4cbfe2c0a910.png
-ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1717138448211/9db344e5-f9e4-48f4-b357-bd7271af5264.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1717185967206/c1da48cb-5701-4da3-8b0b-dfc5bd022028.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1717185950642/064589ac-75a7-4e24-bb1d-45403c4e471e.png
 tags: authentication, web-development, email, saas, boilerplate, nextjs, full-stack-development, supabase, magic-links, sendgrid
 
 ---
