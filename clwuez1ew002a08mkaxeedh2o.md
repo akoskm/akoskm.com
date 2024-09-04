@@ -25,7 +25,7 @@ Maybe we don't need anything more?
 
 Enter **magic-links**!
 
-*Supabase makes it super easy to implement magic links, but the fun doesn't end here. Check out my book to learn through practice how you build a Supabase-backed PWA, from scratch:* [https://a.co/d/dWzDolV](https://a.co/d/dWzDolV)
+*<mark>🌟 Supabase makes it super easy to implement magic links, but the fun doesn't end here. Check out my book to learn through practice how you build a Supabase-backed PWA, from scratch:</mark>* [<mark>https://a.co/d/dWzDol</mark>](https://a.co/d/dWzDolV)
 
 It allows users to log in by clicking a unique link sent to their email, eliminating the need for passwords. The unique link is like a temporary password. When clicked, the backend verifies the link's authenticity and generates a user session, and voila, you're logged in.
 
