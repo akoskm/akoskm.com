@@ -19,6 +19,8 @@ An application like this can be handy if you use voice notes, record videos, and
 
 Our application uses Next.js, TypeScript, and Tailwind for styling.
 
+🚨👉 If you're wondering how you can do all this on a production server and create an app that people will use and pay for, I wrote a book for you: [**OpenAI Crash Course in One Hour: Build Production-Ready Generative AI Apps with React, TypeScript & Remix**](https://a.co/d/iqaStzx)
+
 If you're stuck, reply to this post, and I'll help!
 
 Let's get started!
@@ -32,14 +34,6 @@ In the previous blog post, we created a basic app for uploading audio files to o
 The rest of the post will assume that you followed the previous tutorial.
 
 Your form is working, and when you submit it with a selected file, Next.js uploads and saves it in your project's root directory.
-
-### Taking it to Production?
-
-If you're wondering how you can do all this on a production server and create an app that people will use and pay for, I wrote a book for you:
-
-%[https://read.amazon.in/kp/embed?asin=B0D1Y1VXWT&preview=newtab&linkCode=kpe&ref_=cm_sw_r_kb_dp_N44G5ET9R6K507EA13CE] 
-
-> **The book is available worldwide!** You might have to switch to your local Amazon store and search for the book ASIN: `B0D1Y1VXWT`. 😊
 
 # Setting up OpenAI
 
