@@ -30,7 +30,7 @@ The new time is set in the `useEffect` below:
 ```typescript
 // Countdown.tsx
 const Countdown = () => {
-  const [time, setTime] = useState(formatTime(timeLeft));
+  const [time, setTime] = useState(() => formatTime(timeLeft));
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -69,7 +69,7 @@ We know that `useEffect` doesn’t run while the React component is rendered on 
 
 ```typescript
 const Countdown = () => {
-  const [time, setTime] = useState(formatTime(timeLeft));
+  const [time, setTime] = useState(() => formatTime(timeLeft));
   // true, because we're on the server by default
   const [isLoading, setIsLoading] = useState(true);
 
