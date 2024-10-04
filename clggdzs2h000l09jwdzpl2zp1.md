@@ -139,6 +139,8 @@ Sometimes doing X results in Y.
 
 Do X a year later, and it gives you Z.
 
+Keyword search also has sub-niches, such as long-tail keyword research, requiring different tactics. Luckily my friends over t-ranks already wrote a great guide on doing this. You can check it out here: [https://t-ranks.com/keyword-research/long-tail-keywords/](https://t-ranks.com/keyword-research/long-tail-keywords/).
+
 My framework for researching what words to use and what to put into an article is just one.
 
 This workflow gives me an idea of what title to pick for my next article and how to write the intro without thinking about it for hours.
