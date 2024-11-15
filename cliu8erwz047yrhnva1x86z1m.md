@@ -95,7 +95,7 @@ Next, I'll show you the selector and options usage for some of the structures yo
 
 On login forms usually you have a Sign up link that takes you to the signup page if you haven't signed up yet.
 
-Instead of simply checking if the Sign up text is in the document with `expect(screen.getByText('Sign up')).toBeInTheDocument()` if we use the options and different assertion we can check both the link text and the link itself:
+Instead of simply checking if the Sign up text is in the document with `expect(screen.getByText('Sign up')).toBeInTheDocument()` if we use the options and different assertions we can check both the link text and the link itself:
 
 ```javascript
 // JavaScript (React Testing Library with Jest)
@@ -120,7 +120,7 @@ test('finds a link with text "Sign up" and href "/signup"', () => {
 
 ## Headings
 
-Next up, lets say after a login we'll find ourself on the Dashboard page, and we want to check that. However, Dashboard might appear in the Side Menu, notification messages or even somewhere in a dynamic text on the page. Again, using `expect(screen.getByText('Sign up')).toBeInTheDocument()` would be problematic.
+Next up, let’s say after a login we'll find ourselves on the Dashboard page, and we want to check that. However, Dashboard might appear in the Side Menu, notification messages or even somewhere in a dynamic text on the page. Again, using `expect(screen.getByText('Dashboard')).toBeInTheDocument()` would be problematic.
 
 This is where the `level` option of the `getByRole` selector comes to help:
 
@@ -185,7 +185,7 @@ test('checks if table row content is "John DoeadminEdit"', () => {
 });
 ```
 
-which is neadless to say, hard to read and maintain. Besides that it matches just about any place on the UI that has this text, which can lead to eventual false-positives.
+which is needless to say, hard to read and maintain. Besides, it matches just about any place on the UI with this text, which can lead to eventual false positives.
 
 [within](https://testing-library.com/docs/dom-testing-library/api-within/) is a special selector in RTL that will let you do a new query within an element. Using this helper we can pinpoint the table row we're interested in and inside that check the specific columns:
 
@@ -208,7 +208,7 @@ function checkRowContents(row, name, role, action) {
 test('demonstrates the usage of within helper and getByRole query', () => {
   const { getByRole } = render(<Table />);
   const table = getByRole('table');
-  // first rowgroup is for the thread second is for tbody
+  // first rowgroup is for the thead second is for tbody
   const tbody = within(table).getAllByRole('rowgroup')[1];
   const rows = within(tbody).getAllByRole('row');
 
@@ -220,9 +220,9 @@ This leaves us with a much clearer test.
 
 # Conclusion
 
-These were some of the ways how we're making our React Testing Library tests more readable and how we use query options to precisely pinpoint elements on the UI.
+These were some of the ways we're making our React Testing Library tests more readable and how we use query options to precisely pinpoint elements on the UI.
 
-If you found this useful, let me know it in the comments.
+If you found this useful, let me know in the comments.
 
 Thanks for reading and have fun writing those tests!
 
