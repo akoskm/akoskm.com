@@ -87,9 +87,9 @@ test('finds the text "Upcoming" inside an element with class ".card-subtitle"', 
 
 # How to use React Testing Library the right way
 
-In short: write more specific queries. The solutions lies in the options argument I mentioned above. ByText, ByRole, ByTitle, and other selectors each have a specific set of options. Check out the previous link to see what those are.
+In short: write more specific queries. The solution lies in the options argument I mentioned above. ByText, ByRole, ByTitle, and other selectors each have a specific set of options. Check out the previous link to see what those are.
 
-Next I'lls how you the selector and options usage for the some of the structures you'll most often encounter in web apps:
+Next, I'll show you the selector and options usage for some of the structures you'll most often encounter in web apps:
 
 ## Hrefs with text and content
 
