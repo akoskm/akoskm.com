@@ -11,7 +11,7 @@ tags: web-development, best-practices, react-state, react-state-management
 
 ---
 
-React state can get out of hand quickly.
+React states can get out of hand quickly.
 
 The impact of a complex state doesn’t always break a component right away, but over time, it can lead to:
 
