@@ -97,7 +97,7 @@ export function greet(name: string): string {
 console.log(greet('Developer'));
 ```
 
-## Transpile & Run
+## Transpile and Run
 
 Converting your TypeScript file into JavaScript is one of the most common ways of running TypeScript in production.
 
