@@ -40,9 +40,9 @@ Each runtime approaches TypeScript differently.
 
 **Deno**, on the other hand, stands out for its unique security and rich tooling while having out-of-the-box TypeScript support, requiring zero configuration, just like Bun.
 
-![https://assets.devographics.com/captures/js2023/en-US/runtimes.png](https://assets.devographics.com/captures/js2023/en-US/runtimes.png align="center")
+![](https://assets.devographics.com/captures/js2024/en-US/runtimes.png align="left")
 
-As you can see in the [2023 State of JavaScript survey](https://2023.stateofjs.com/en-US/other-tools/#runtimes), Node.js still dominates the runtimes. Because they are actively working on bringing the newest features to the runtime, I don’t expect a huge change here anytime soon.
+As you can see in the [2024 State of JavaScript survey](https://2024.stateofjs.com/en-US/other-tools/#runtimes), Node.js still dominates the runtimes. Because they are actively working on bringing the newest features to the runtime, I don’t expect a huge change here anytime soon.
 
 # Run TypeScript with Node.js
 
