@@ -131,6 +131,8 @@ Node.js support for TypeScript has come a long way thanks to the new Node.js Typ
 
 ⚠️ *Note that this feature is experimental, and the flags may change at any time or be completely removed.*
 
+*🎄****Update 2024-12-28:*** *this* [*PR*](https://github.com/nodejs/node/pull/56350) *just landed in Node.js 22 which enables --experimental-strip-types by default! 🎉*
+
 To run this natively with Node.js 22, type `node --experimental-strip-types example.ts`. The output will look like the following:
 
 ```plaintext
