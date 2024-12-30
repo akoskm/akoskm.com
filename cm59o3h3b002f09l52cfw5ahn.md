@@ -7,7 +7,7 @@ cuid: cm59o3h3b002f09l52cfw5ahn
 slug: react-router-vitest-example
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1735480075993/c3ed7505-e19e-4786-a9bc-43d8e872c929.png
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1735480084283/75570ea3-feda-48c3-b149-7e1e22ca3ec5.png
-tags: react-router, reactjs, vite, remix, vitest
+tags: react-router, reactjs, testing, vite, testing-library, remix, vitest
 
 ---
 
