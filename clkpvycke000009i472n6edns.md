@@ -56,7 +56,7 @@ Nearly a year ago, I began working on browser plugin development and wanted my p
 
 ### Brave Plugins
 
-* Bitwarden - this is my default password manager. It's free for personal use, and I know friends from big companies where this is the standard password manager. It's pretty good and integrates well with all your other devices.
+* Bitwarden - this is my default password manager. It's free for personal use, and I know friends from big companies where this is the standard [password manager](https://cybernews.com/best-password-managers/). It's pretty good and integrates well with all your other devices.
     
 * Grammarly - because I can't write without it 😅.
     
