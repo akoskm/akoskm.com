@@ -216,7 +216,7 @@ After this, you can simply run `npm start`.
 
 ## Using tsx with npx
 
-Similar to `ts-node`, tsx (not to be confused with React’s TSX) is another TypeScript execution engine for Node.js. You can install it using `npm i -D npx` in your current npm project.
+Similar to `ts-node`, tsx (not to be confused with React’s TSX) is another TypeScript execution engine for Node.js. You can install it using `npm i -D tsx` in your current npm project.
 
 And here’s the output when you run `example.ts` with it:
 
