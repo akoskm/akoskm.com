@@ -22,7 +22,9 @@ Nesting is one of those things that I always approach with:
 
 It’s one of the overused things in React, and it usually appears as a byproduct of using the ternary operator.
 
-It is not uncommon that we find components like this:
+## Why TypeScript Thinks Your Value Is Undefined
+
+It is not uncommon to find components like this:
 
 ```typescript
 interface Player {
@@ -53,6 +55,8 @@ This code works perfectly fine yet makes you question many things. And it's also
 
 The ternary operator inevitably leads to nesting, and more ternary operators lead to more nesting.
 
+## Understanding TypeScript’s Strict Null Checks
+
 We decide to refactor the above code and create separate functions to avoid using the ternary operators:
 
 ```typescript
@@ -71,7 +75,11 @@ But there's one problem with this:
 
 Even though we check that `players` is defined before entering `renderWelcome` TypeScript still warns us about a possibly undefined value for `players`.
 
+## Why External Checks Aren’t Enough
+
 The behavior makes sense to me because nothing prevents `renderWelcome` from being called without wrapping it with a check - leading to a runtime error in your code.
+
+## Fix: Handle Optional Values Inside the Function
 
 There are a couple of ways to fix this:
 
@@ -102,7 +110,11 @@ TypeScript will be happy with this code because `players` is guaranteed to be th
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1680359574461/4f948c42-a8d5-41a1-8e74-5a4e87e2346e.png align="center")
 
-Congratulations!
+## **Conclusion**
+
+TypeScript doesn’t trust how you call functions—it enforces explicit guarantees. If a value is optional, always handle it inside the function rather than relying on external checks.
+
+---
 
 You just learned how you could both improve the readability of your code and create a nice component separation in React when using TypeScript without dirty tricks such as the `!`.
 
