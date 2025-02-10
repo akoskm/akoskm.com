@@ -112,7 +112,7 @@ TypeScript will be happy with this code because `players` is guaranteed to be th
 
 ## **Conclusion**
 
-TypeScript doesn’t trust how you call functions—it enforces explicit guarantees. If a value is optional, always handle it inside the function rather than relying on external checks.
+TypeScript flags “possibly undefined” errors when a value is optional and the code doesn’t ensure it’s safely handled. The solution is to either explicitly check for the value before usage or pass the value as a required argument to functions, ensuring type safety and preventing runtime errors.
 
 ---
 
