@@ -258,3 +258,8 @@ As a quick reminder, here’s a checklist for your next project:
 3. **Fix Vitest Configuration**: Open `vitest.workspace.ts` and replace `configs` with `instances`.
     
 4. **Vite Configuration**: Modify `vite.config.ts` to disable React Router during tests using `!process.env.VITEST && reactRouter()`.
+    
+
+## GitHub Repo
+
+[https://github.com/akoskm/vitest-browser-mode](https://github.com/akoskm/vitest-browser-mode)
