@@ -70,7 +70,7 @@ This always implied writing some boilerplate code, keeping track of separate fil
 
 # Server Actions
 
-At the end of last year, I wrote about Remix and how their action/loader architecture felt more full-stack than anything else we have done in JavaScript or TypeScript. You can read more about "The Remix Way" [here](https://akoskm.com/the-ultimate-full-stack-framework-for-2024-remix#heading-the-remix-way).
+At the end of last year, I wrote about Remix and how their action/loader architecture felt more full-stack than anything else we have done in JavaScript or TypeScript. You can read more about "The Remix Way" [here](https://akoskm.com/the-ultimate-full-stack-framework-for-2024-remix#heading-the-remix-way/).
 
 If you think about your applications high-level, whether you use REST/GraphQL is an implementation detail.
 
