@@ -144,6 +144,48 @@ This is so much better than having those endpoints hardcoded because the LLMs ca
 
 This eliminates most of the work that came from staying up to date with API formats, for example, adapting your app to handle a new URL or the removal of a field from the response.
 
+# How LLMs fit into this?
+
+So far, we’ve only seen writing code to discover what tools, resources, and prompts we have available on the server. And we’ve been doing this manually, by calling the right commands, so where does the LLM come into play?
+
+The LLM acts as a mediator between your input and selecting the right action based on the server's capabilities.
+
+So in the case of our event suggestion app, you’d tell the application something like this:
+
+*Find me something to do tomorrow at 4PM.*
+
+Then rely on the LLM to select what tool to interact with. This is how this would look in the code:
+
+```typescript
+const userQuery = req.body.query;
+
+const client = new Client({ name: "event-client", version: "1.0.0" });
+const availableTools = client.listTools();
+
+const prompt = `
+  You're an assistant that interacts with an MCP Server that has the following
+  tools available ${JSON.stringify(availableTools}}. Select the approriate tool
+  based on the clients query ${userQuery} and extra the parameters to call it.
+`;
+
+const toolSelection = await this.openai.chat.completions.create({
+  messages: [
+    {
+      "role": "system",
+      "content": prompt
+    },
+    ...messages
+  ],
+  model: "gpt-4o-mini",
+});
+
+// Call the selected tool
+const result = await client.callTool({
+  name: toolSelection.tool,
+  arguments: toolSelection.arguments,
+});
+```
+
 # Further Read
 
 * Introduction: [https://modelcontextprotocol.io](https://modelcontextprotocol.io)
