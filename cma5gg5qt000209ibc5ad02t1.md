@@ -10,28 +10,30 @@ tags: ai, web-development, cursor, mcp, mcp-server
 
 ---
 
-I’ll show you the easiest way to write and use your first Model Context Protocol (MCP) Server in Cursor. In the future, you can use your MCP Server in any MCP-compatible client (like Claude Desktop).
+I’ll show you how to write and use your first Model Context Protocol (MCP) Server in Cursor. In the future, you can use your MCP Server in any MCP-compatible client (like Claude Desktop).
 
 We’ll build an stdio MCP Server that communicates with clients using standard input/output streams.
 
-There are different types of MCP Server right now:
+There are three different types of protocols for MCP Servers right now:
 
 * **stdio transport**: Used for local integrations, command-line tools, simple process communication, and shell scripts
     
-* **SSE transport**: Used when only server-to-client streaming is needed, working with restricted networks, or implementing simple updates
+* **SSE transport**: Used when only server-to-client streaming is needed or working with restricted networks
     
 * **Custom transports**: Can be implemented for custom network protocols, specialized communication channels, integration with existing systems, or performance optimization
     
 
 Each server type uses JSON-RPC 2.0 as its wire format for message transmission.
 
-If you’re new to MCP Servers, I suggest you check out my previous post, which is a great introduction to the world of MCPs:
+If you’re new to MCP Servers, I suggest you check out my previous post, which is a short introduction to the world of MCPs:
 
 %[https://akoskm.com/mcp-model-context-protocol-a-simple-guide/] 
 
+So let’s go ahead and build our first MCP Server using the stdio transport.
+
 ## Project Setup
 
-Create an empty folder my-mcp-server and inside initialise a new package using `pnpm init`:
+Create an empty folder `my-mcp-server` and inside initialise a new package using `pnpm init`:
 
 ```bash
 mkdir my-mcp-server
@@ -51,7 +53,7 @@ pnpm i @modelcontextprotocol/sdk zod
 
 Create a file `index.ts` in the root of your project folder.
 
-You can either choose to compile this file into js using tsc or you can run your mcp server with bun or deno. In this tutorial I’m using bun.
+You can either choose to compile this file into js using tsc or you can run your mcp server with bun, deno or even the [newest node versions because they have some TypeScript support of the box](https://akoskm.com/how-to-run-typescript-2025/). In this tutorial I’m using bun.
 
 Import the modules we’ll use:
 
@@ -108,7 +110,6 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
 
-// Create an MCP server
 const server = new McpServer({
   name: "Demo",
   version: "1.0.0",
@@ -156,7 +157,7 @@ Besides the name and the description of the tool we pass a parameters part:
   { code: z.string() },
 ```
 
-This is where the magic happens! 🪄
+And this is where the magic happens! 🪄
 
 Cursor will automatically try to get the right parameters from your prompt based on what you specified in the params section.
 
