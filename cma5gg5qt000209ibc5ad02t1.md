@@ -31,7 +31,7 @@ If you’re new to MCP Servers, I suggest you check out my previous post, which 
 
 So let’s go ahead and build our first MCP Server using the stdio transport.
 
-## Project Setup
+# Project Setup
 
 Create an empty folder `my-mcp-server` and inside initialise a new package using `pnpm init`:
 
@@ -49,7 +49,7 @@ Let’s install the only two dependencies we’ll use for our MCP server:
 pnpm i @modelcontextprotocol/sdk zod
 ```
 
-## Stdio MCP Server
+# Stdio MCP Server
 
 Create a file `index.ts` in the root of your project folder.
 
@@ -173,7 +173,7 @@ await server.connect(transport);
 
 Let’s see how we can register this server in Cursor.
 
-## Register the MCP Server in Cursor
+# Register the MCP Server in Cursor
 
 Open Cursor Settings and under MCP click **Add new global MCP server**.
 
@@ -247,7 +247,7 @@ You just created and used your first MCP server for something amazing!
 
 What you’ll create next?
 
-## Resources
+# Resources
 
 * [The MCP protocol’s website](https://modelcontextprotocol.io/introduction)
     
