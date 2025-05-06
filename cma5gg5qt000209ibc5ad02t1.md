@@ -86,7 +86,7 @@ const server = new McpServer({
 });
 ```
 
-In this example we’ll focus on exposing a tool because I think that’s the most interesting to work with, but there are other capabilities you can define on your server:
+In this example, we’ll focus on exposing a tool because I think that’s the most interesting to work with, but there are other capabilities you can define on your server:
 
 * **Resources** - Data access points similar to GET endpoints in REST APIs
     
@@ -245,7 +245,19 @@ And that’s it!
 
 You just created and used your first MCP server for something amazing!
 
-What you’ll create next?
+What will you create next?
+
+# GitHub
+
+You’ll find my studio starter project on GitHub here: [https://github.com/akoskm/create-mcp-server-stdio](https://github.com/akoskm/create-mcp-server-stdio).
+
+You can also just run this command:
+
+```bash
+npm create @akoskm/mcp-server-stdio my-mcp-server
+```
+
+And it’ll create a stdio MCP server in `my-mcp-server`. 🙂
 
 # Resources
 
