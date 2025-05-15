@@ -259,6 +259,12 @@ npm create @akoskm/mcp-server-stdio my-mcp-server
 
 And it’ll create a stdio MCP server in `my-mcp-server`. 🙂
 
+# Video
+
+You can also check out the video I just recorded, where I’m showing you how to build an MCP server:
+
+%[https://youtu.be/YJ3iPXqiN7g?si=wnnrNdsfIbYD_4Ux] 
+
 # Resources
 
 * [The MCP protocol’s website](https://modelcontextprotocol.io/introduction)
