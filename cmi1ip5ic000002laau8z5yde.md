@@ -52,10 +52,6 @@ Using the custom command I created, all this knowledge is kept in the JIRA issue
 
 Next time another engineer decides to pick it up, they can see what things I’ve already tried and continue from there.
 
-Here’s how the command looks in action:
-
-![](https://cdn.hashnode.com/res/hashnode/image/upload/v1763284130197/93962b0f-97e1-4f20-a04a-24a9a4538ea9.png align="center")
-
 ## Setting up a command
 
 If your entire team is on Cursor, you are probably safe to put this in `.cursor` in the root of your project. However, if this is not considered a good practice, you can create commands in `~/.cursor/commands` as well. If you are on the Enterprise plan, [Team Commands](https://cursor.com/docs/agent/chat/commands#team-commands) is a good place to start.
