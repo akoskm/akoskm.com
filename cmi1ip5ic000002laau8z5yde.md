@@ -38,9 +38,9 @@ Let’s see how I used this in action yesterday! 👇
 
 ## The problem
 
-There’s a form inside the application I’m working.
+There’s a form inside the application I’m working on.
 
-Its default values can be set in several ways: via URL parameters or in-memory objects that can be set from other parts of the app.
+Its default values can be set in several ways: via URL parameters or in-memory objects that can be set elsewhere in the app.
 
 Overall, it's a mess right now, resulting in annoying bugs.
 
@@ -92,7 +92,7 @@ Then simply invoke the command by typing `/` in the agent chat:
 
 That’s it!
 
-I hope you found this helpful, and I’m curious to hear about any new use cases you have found for Cursor commands.
+I hope you found this helpful, and I’m curious to hear about any new use cases you have for Cursor commands!
 
 Ping me on [@akoskm on 𝕏](https://x.com/akoskm) or get in touch using any of the channels below.
 
