@@ -6,7 +6,7 @@ datePublished: Sat Dec 06 2025 12:04:51 GMT+0000 (Coordinated Universal Time)
 cuid: cmiu8xsw1000302l81outd1bg
 slug: wrong-type-imports-are-breaking-your-full-stack-react-app
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765022637152/7e91ccb9-8fef-4c6d-85ed-05f093e243e7.png
-tags: reactjs, typescript, nextjs, nextauthjs, vitest
+tags: reactjs, testing, typescript, nextjs, nextauthjs, vitest
 
 ---
 
