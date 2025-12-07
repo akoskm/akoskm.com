@@ -10,13 +10,15 @@ tags: reactjs, typescript, nextjs, nextauthjs, vitest
 
 ---
 
-You're running browser tests in your Next.js app with Vitest, and suddenly you're hit with a cascade of Vite pre-transform errors. The error message points to a seemingly innocent import statement, but your tests are failing. If you're using `next-auth` with TypeScript, there's a good chance you've encountered this exact problem.
+You're running browser tests in your Next.js app with Vitest, and suddenly you're hit with a cascade of Vite pre-transform errors. This time for me it was a next-auth import type error and I couldn't figure out why, since I was importing the types only.
 
-The issue stems from a subtle but critical difference in how TypeScript handles type imports, and how bundlers like Vite interpret them. Understanding this difference will save you hours of debugging.
+The error message pointed to a seemingly innocent import statement, but the tests kept failing. If you're using `next-auth` with TypeScript, there's a good chance you've encountered this exact problem.
 
-## The Problem
+The issue comes from a subtle but critical difference in how TypeScript handles type imports, and how bundlers like Vite interpret them.
 
-When running browser tests with Vitest, you might see errors like this:
+## The next-auth import type error
+
+When running browser tests with Vitest, you might see errors like this next-auth import type error:
 
 ```bash
 [vite] (client) Pre-transform error: No known conditions for "./adapters" specifier in "next-auth" package
@@ -36,7 +38,9 @@ The problem is in how you're importing types from `next-auth/adapters`. You migh
 import { type AdapterAccount } from "next-auth/adapters";
 ```
 
-This looks correct at first glance. You're using the `type` keyword, so TypeScript knows it's a type import. However, this syntax has a different meaning to bundlers like Vite.
+This looks correct at first glance. You're using the `type` keyword, so TypeScript knows it's a type import.
+
+However, this syntax has a different meaning to bundlers like Vite.
 
 ## The Solution
 
@@ -50,7 +54,7 @@ This single change eliminates the Vite pre-transform errors and ensures your bun
 
 ## Understanding the Difference
 
-There are two ways to import types in TypeScript, and they behave differently:
+There are two ways to import types in TypeScript, and they behave differently.
 
 ### `import type { ... }` - Type-Only Import
 
@@ -82,11 +86,11 @@ This is a **value import statement** with a type-only named import. Even though 
 
 Modern bundlers like Vite perform static analysis on your code before transformation. When they encounter an import statement, they need to understand:
 
-1. Is this a type import that can be ignored?
-2. Does this module need to be bundled?
-3. What are the export conditions for this package?
+- Is this a type import that can be ignored?
+- Does this module need to be bundled?
+- What are the export conditions for this package?
 
-With `import type { ... }`, the bundler receives a clear signal: "This entire import is type-only, skip it." With `import { type ... }`, the bundler sees a value import and may attempt to analyze the module, even if the specific named export is type-only.
+With `import { type ... }`, the bundler sees a value import and may attempt to analyze the module, even if the specific named export is type-only.
 
 For packages like `next-auth` that use conditional exports (like `"./adapters"`), this analysis can fail when the bundler can't determine the correct export condition for the build target.
 
@@ -94,16 +98,24 @@ For packages like `next-auth` that use conditional exports (like `"./adapters"`)
 
 When importing types in TypeScript, especially in projects using Vite, Webpack, or other modern bundlers:
 
-1. **Prefer `import type` for type-only imports** - Use `import type { ... }` when you're only importing types
-2. **Use `import { type ... }` sparingly** - Only use this syntax when mixing type and value imports from the same module
-3. **Be consistent** - Choose one pattern and stick with it across your codebase
+- **Prefer `import type` for type-only imports** - Use `import type { ... }` when you're only importing types
+- **Use `import { type ... }` sparingly** - Only use this syntax when mixing type and value imports from the same module
+- **Be consistent** - Choose one pattern and stick with it across your codebase
 
 ## Conclusion
 
-The difference between `import type { ... }` and `import { type ... }` might seem minor, but it has real implications for how bundlers process your code. When working with Next.js, React, and packages like `next-auth`, using the correct type import syntax prevents bundler errors and keeps your test output clean.
+The difference between `import type { ... }` and `import { type ... }` might seem minor, but it has real implications for how bundlers process your code.
 
-If you're seeing Vite pre-transform errors related to type imports, check your import statements and convert them to use `import type` syntax. Your bundler—and your future self—will thank you.
+When working with Next.js, React, and packages like `next-auth`, using the correct type import syntax prevents bundler errors and keeps your test output clean.
+
+If you're seeing Vite pre-transform errors related to type imports, check your import statements and convert them to use `import type` syntax. Your bundler—and your future self—will thank you while you avoid the next-auth import type error altogether.
+
+For deeper dives, see the official docs for the [NextAuth adapter API](https://next-auth.js.org/configuration/options#adapter), the TypeScript [`import type`](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-3-8.html#type-only-imports-and-export) syntax, and Vite's guidance on [conditional exports](https://vitejs.dev/guide/dep-pre-bundling.html#conditional-exports).
+
+And here you can read my other posts on similar topics: [Next.js](/tags/next.js/), [TypeScript](/tags/typescript/), and [Vitest](/tags/vitest/).
 
 ---
 
 **Next Steps:** Review your codebase for type imports and standardize on `import type` syntax. This small change will improve your build performance and eliminate unnecessary bundler warnings.
+
+Thanks for reading!
