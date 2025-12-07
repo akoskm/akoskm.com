@@ -102,6 +102,10 @@ When importing types in TypeScript, especially in projects using Vite, Webpack, 
 - **Use `import { type ... }` sparingly** - Only use this syntax when mixing type and value imports from the same module
 - **Be consistent** - Choose one pattern and stick with it across your codebase
 
+### ESlint
+
+Looks like there's an ESlint rule `@typescript-eslint/consistent-type-exports` that can help you catch these import statements. Check out [Consistent Type Imports and Exports: Why and How](https://typescript-eslint.io/blog/consistent-type-imports-and-exports-why-and-how/#enforcing-with-typescript-eslint).
+
 ## Conclusion
 
 The difference between `import type { ... }` and `import { type ... }` might seem minor, but it has real implications for how bundlers process your code.
